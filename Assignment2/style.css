@@ -1,0 +1,60 @@
+
+ .chips-head{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+}
+
+.chips{ 
+  display: flex;  
+  border: none;
+  border-radius: 2.5rem;
+  background-color:rgb(220, 216, 216);
+  margin: 0.01rem;
+  color:rgb(2, 2, 2);
+  align-items: center;
+  padding: 0.01rem 0.1rem 0.01rem 0.6rem;
+  margin: 0.4rem;
+}
+
+.chips:hover{
+    background-color: rgb(171, 122, 122);
+    color: white;
+}
+
+.chips:focus{
+    background-color: black;
+    color: white;
+}
+
+button{
+    border: none;
+    background-color: rgb(213, 195, 195);
+    margin:  0.4rem;
+    padding: 0.4rem; 
+    border-radius: 40px;
+}
+
+button:hover{
+    border-radius: 30px;
+    background-color: rgb(120, 63, 63);
+}
+
+button:focus{
+    background-color: red;
+}
+
+a{
+  text-decoration: none;
+}
+
+.div1{
+   padding: 1rem 2rem 1rem 2rem;
+   background-color: aquamarine;
+}
+
+h2{
+    padding-left: 1rem;
+}

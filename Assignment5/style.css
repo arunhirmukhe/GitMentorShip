@@ -1,0 +1,52 @@
+
+body{
+    background-color: rgb(85, 156, 156);
+}
+.div1{
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    background-color:rgb(16, 49, 49);
+    color: white;
+    padding: 0.1rem;
+    margin: 17rem 34rem;
+    box-shadow: 5px 10px 8px #515050;
+}
+
+#but1{
+ padding: 0.5rem;
+ margin: 1rem;
+}
+
+#but2{
+   background-color:rgb(16, 49, 49); 
+   border: none;
+   margin: 1rem;
+   padding: 0.5rem;
+   color: white;
+   border-radius: 0.4rem;
+}
+
+#but2:hover{
+    background-color: rgb(58, 31, 86);
+}
+
+#but3{
+    background-color:rgb(16, 49, 49); 
+    color: white;
+    margin: 1rem;
+    padding: 0.5rem 0.7rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+#but3:hover{
+    background-color:darkslategrey;
+}
+
+@media screen and (max-width: 766.4px){
+    .div1{
+        margin: 17rem 10rem;
+    }
+
+}

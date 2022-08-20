@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(176, 176, 176);
+}
+
+
+.dialog{
+    height: 12rem;
+    width: 19rem;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem 0rem 2rem;
+    margin: auto;
+    margin-top: 15rem;
+    border-radius:0.5rem;
+    box-shadow: 10px 5px 10px 10px #888;
+    background-color: white;
+}
+
+h2{
+    /* border: 1px solid; */
+    margin: 0rem 0rem 1rem 0rem;
+    font-size: 50px;
+}
+
+p{
+    padding: 0rem 0rem 2rem 0rem;
+    font-size:25px;
+}
+
+.act{
+    /* border: 1px solid; */
+    padding: 1rem -5rem 0rem 0rem;
+    display:flex;
+    justify-content: flex-end;
+    margin: 0rem -2rem 2rem 2rem ;
+}
+
+a{
+    padding: 0.5rem;
+    font-size: 20px;
+    margin: 0rem 2rem 0rem 0rem;
+    border: none;
+    color: blue;
+}
+
+a:hover{
+    border-radius: 0.3rem;
+    background-color: rgb(220, 232, 243);
+}
+

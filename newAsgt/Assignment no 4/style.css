@@ -1,0 +1,65 @@
+
+body{
+    background-image: url("back2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+
+.quiz{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 30px 15px 30px;
+    width: 800px;
+    font-size: 30px;
+    
+}
+
+.back2{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 50px 30px 50px;
+    width: 800px;
+    background-color: rgb(157, 154, 154);
+    opacity: 0.8;
+} 
+
+h2{
+   padding: 0px 10px 10px 10px;
+   text-align: center;
+   font-size: 50px;
+}
+
+button{
+    width: 90%;
+    height: 40px;
+    font-size: 20px;
+    opacity: 1.0;
+}
+
+.sub{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1.0;
+}
+
+.result{
+    text-align: center;
+    font-size: 40px;
+    opacity: 1.0;
+}
+
+.sta{
+    font-size: 20px;
+    text-align: center;
+    opacity: 1.0;
+    font-size: 30px;
+}
+
+input{
+    width: 15px;
+    height: 15px;
+    
+}
